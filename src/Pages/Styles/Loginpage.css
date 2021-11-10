@@ -1,0 +1,57 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151515;
+    color: #e9f7f3;
+}
+
+.hero{
+    width: 35%;
+    height: 65%;
+    background-color: #214252;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.txtbox{
+    width: 60%;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.sbtbtn{
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.hd{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+

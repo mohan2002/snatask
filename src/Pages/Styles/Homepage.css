@@ -1,0 +1,78 @@
+.homecontainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151515;
+    color: #e9f7f3;
+}
+
+.top-container{
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sec-container{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.statebtn{
+    padding: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.blgrchange{
+    background-color: #20bf55;
+    background-image:linear-gradient(150deg, #20bf55 6%, #067897 88%);
+}
+
+.grwhchange{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 64%);
+}
+
+.btn{
+    padding: 20px;
+}
+
+.grclr{
+    background-color: #20bf55;
+}
+
+.rrclr
+{
+    background-color: red;
+}
